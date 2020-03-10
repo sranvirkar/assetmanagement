@@ -1,0 +1,21 @@
+.data-table-wrapper {
+    font-size: 14px;
+    
+    .dataTables_length {
+        > label {
+            > select {
+                margin-left: 0px !important;
+            }
+        }        
+    }
+
+    .dataTables_filter {
+        float: right;
+    }
+
+    .dataTables_paginate {
+        > .pagination {
+            float: right;
+        }
+    }
+}

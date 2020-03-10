@@ -1,0 +1,24 @@
+.LoginPage-Wrapper {
+  background-color: gainsboro;
+  height: 100vh;
+  
+  > .CardStyle {
+		display:flex;
+		justify-content: center;
+		margin-top: 100px;
+		
+		> .InnerCardStyle{
+			width: 350px;
+			
+			> .CardTitle {
+				text-align: center;
+			}
+			
+			.button {
+				display: flex;
+				justify-content: flex-end;
+			}
+		}
+	}
+}
+

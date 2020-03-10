@@ -1,0 +1,13 @@
+.sidenav {
+    height: calc(100vh - 56px);
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        > li {
+            padding: 10px 0px;
+            border-bottom: 1px solid #cdcdcd;
+            cursor: pointer;
+        }
+    }
+}

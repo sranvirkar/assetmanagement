@@ -1,0 +1,24 @@
+.navbar-wrapper {
+    .navbar{
+        background: $pastel-red;
+
+        > .navbar-brand {
+            color: $gallery;
+        }
+
+        > .navbar-collapse {
+            .nav-item {
+                > a {
+                    color: $gallery;
+                }
+            }   
+            
+            .dropdown-menu {
+                right: 0;
+                left: auto;
+            }
+        }
+
+        
+    }
+}

@@ -1,0 +1,21 @@
+.dashboard {
+    
+    > .main-content-wrapper {
+        display: flex;
+
+        > .sideNav-wrapper {
+            background-color: #f7f7f7;
+            width: 300px;
+            padding: 0px 15px;
+        }
+
+        > .content-wrapper {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .searchbox.input-group {
+            max-width: 300px;
+        }
+    }
+}
